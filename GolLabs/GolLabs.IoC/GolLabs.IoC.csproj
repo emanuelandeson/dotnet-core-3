@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GolLabs.Application\GolLabs.Application.csproj" />
+    <ProjectReference Include="..\GolLabs.Domain\GolLabs.Domain.csproj" />
+    <ProjectReference Include="..\GolLabs.Infra\GolLabs.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
